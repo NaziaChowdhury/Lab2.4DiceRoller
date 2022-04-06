@@ -51,6 +51,7 @@ public class DiceRoller {
 			rollDice();
 		} else if (rollAgainInput.equals("n")) {
 			System.out.println("Thanks for playing! Goodbye.");
+			scannerObj.close();
 		}
 	}
 
